@@ -1,0 +1,87 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.div-body3 {
+    background-color: skyblue;
+}
+
+.box-navbar3{
+    background-color:slategrey;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar3{
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar3{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar3:hover {
+    background-color: skyblue;
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.a-navbar3 {
+    color: white;
+    text-decoration: none;
+}
+
+.content-navbar3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.a-content {
+    background-color: white;
+    width: 720px;
+    height: 480px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content3 {
+    width: 200px;
+    height: 200px;
+}
+    
+
+.box-footer3 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer3 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+
+
+
